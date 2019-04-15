@@ -50,6 +50,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/sdm845
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
+# Add fix for common JACK issues
+ANDROID_JACK_VM_ARGS := -Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx5120m
+
 # Platform
 # TARGET_BOARD_PLATFORM := sdm845
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
