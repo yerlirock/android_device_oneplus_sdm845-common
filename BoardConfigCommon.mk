@@ -85,6 +85,9 @@ WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 # Display
 TARGET_USES_HWC2 := true
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
     $(COMMON_PATH)/lineagehw
