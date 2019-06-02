@@ -34,6 +34,19 @@ lib/vendor.qti.hardware.iop@2.0.so
 # Power-off alarms
 etc/permissions/vendor-qti-hardware-alarm.xml
 
+# NXP NFC
+-app/NxpNfcNci/NxpNfcNci.apk|698ff1fab2a6e9843310713763533ed11d39f47e
+-app/NxpSecureElement/NxpSecureElement.apk
+framework/com.nxp.nfc.jar
+etc/permissions/com.nxp.nfc.xml
+lib64/android.hardware.secure_element@1.0.so
+lib64/ese_spi_nxp.so
+lib64/libnxpnfc_nci_jni.so
+lib64/libnxpnfc-nci.so
+lib64/vendor.nxp.nxpnfc@1.0.so
+lib64/vendor.nxp.nxpese@1.0.so
+etc/nfcee_access.xml
+
 # Telephony
 -app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/qcrilhook.xml
